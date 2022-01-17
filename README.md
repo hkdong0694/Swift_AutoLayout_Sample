@@ -10,6 +10,9 @@
 - [Basic_Hugging_Priority](https://github.com/hkdong0694/Swift_AutoLayout_Sample/blob/master/Basic_Hugging_priority/Basic_Hugging_priority/Base.lproj/Main.storyboard) : Label View 의 우선 순위 적용 Sample Project
 - [Basic_Compression_Resistance](https://github.com/hkdong0694/Swift_AutoLayout_Sample/blob/master/Basic_Compression_Resistance/Basic_Compression_Resistance/Base.lproj/Main.storyboard) : Label View 의 찌그러짐 우선 순위 적용 Sample Project
 - [Basic_Priority_Constraints](https://github.com/hkdong0694/Swift_AutoLayout_Sample/blob/master/Basic_Priority_Constraints/Basic_Priority_Constraints/Base.lproj/Main.storyboard) : Label View 의 Margin 우선 순위 적용 Sample Project
+- [Basic_Rotation](https://github.com/hkdong0694/Swift_AutoLayout_Sample/blob/master/Basic_Rotation/Basic_Rotation/Base.lproj/Main.storyboard) : 가로, 세로 모드별 AutoLayout 적용 Sample Project
+
+
 
 
 
