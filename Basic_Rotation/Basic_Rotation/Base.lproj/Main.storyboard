@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Basic_Rotation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymV-7Y-kOu">
+                                <rect key="frame" x="50" y="94" width="20" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xa-De-2of">
+                                <rect key="frame" x="120" y="94" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45t-Y4-G8s">
+                                <rect key="frame" x="50" y="180" width="21" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xm5-vN-fbP">
+                                <rect key="frame" x="121" y="180" width="21" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xm5-vN-fbP" secondAttribute="trailing" constant="50" id="3dk-IS-aPe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xm5-vN-fbP" secondAttribute="bottom" constant="50" id="C1C-sd-UP8"/>
+                            <constraint firstItem="2Xa-De-2of" firstAttribute="leading" secondItem="ymV-7Y-kOu" secondAttribute="trailing" constant="50" id="FIi-6U-ZNe"/>
+                            <constraint firstItem="xm5-vN-fbP" firstAttribute="top" secondItem="2Xa-De-2of" secondAttribute="bottom" constant="50" id="Fe1-13-yZZ"/>
+                            <constraint firstItem="xm5-vN-fbP" firstAttribute="leading" secondItem="45t-Y4-G8s" secondAttribute="trailing" constant="50" id="I8y-Kn-M0T"/>
+                            <constraint firstItem="ymV-7Y-kOu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="JTE-0A-NuZ"/>
+                            <constraint firstItem="2Xa-De-2of" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bFg-zZ-SZn"/>
+                            <constraint firstItem="45t-Y4-G8s" firstAttribute="top" secondItem="ymV-7Y-kOu" secondAttribute="bottom" constant="50" id="gx2-qL-D1D"/>
+                            <constraint firstItem="xm5-vN-fbP" firstAttribute="leading" secondItem="45t-Y4-G8s" secondAttribute="trailing" constant="50" id="hlY-ra-urq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="45t-Y4-G8s" secondAttribute="bottom" constant="50" id="iBG-Dk-Tny"/>
+                            <constraint firstItem="45t-Y4-G8s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="jh9-gR-ooB"/>
+                            <constraint firstItem="ymV-7Y-kOu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="nss-QN-QyC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3dk-IS-aPe"/>
+                                <exclude reference="C1C-sd-UP8"/>
+                                <exclude reference="iBG-Dk-Tny"/>
+                                <exclude reference="I8y-Kn-M0T"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="3dk-IS-aPe"/>
+                                <include reference="C1C-sd-UP8"/>
+                                <include reference="iBG-Dk-Tny"/>
+                                <exclude reference="gx2-qL-D1D"/>
+                                <exclude reference="jh9-gR-ooB"/>
+                                <exclude reference="Fe1-13-yZZ"/>
+                                <include reference="I8y-Kn-M0T"/>
+                                <exclude reference="hlY-ra-urq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="89"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
